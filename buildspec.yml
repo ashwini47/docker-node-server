@@ -10,7 +10,7 @@ phases:
     commands: 
       - "echo Build completed on `date`"
       - "echo Pushing the Docker image..."
-      - "docker push dvohra/node-server:latest"
+      - "docker push ashwini47lab/node-server:latest"
       
   pre_build: 
     commands: 
