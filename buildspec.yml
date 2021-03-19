@@ -15,5 +15,8 @@ phases:
     commands: 
       - "echo Logging in to Docker Hub..."
       - "docker login --username=\"ashwini47lab\" --password=\"Labtest@1996\""
+ artifacts:
+  files:
+    - '**/*'
 version: 0.1
 
