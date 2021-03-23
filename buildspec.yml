@@ -15,7 +15,7 @@ phases:
   pre_build: 
     commands: 
       - "echo Logging in to Docker Hub..."
-      - "docker login --username=\"ashwini47lab\" --password=\"Labtest@1996\""
+      - "docker login --username=\"ashwini47lab\" --password=$DOCKER_PW
 artifacts:
   files:
     - '**/*'
